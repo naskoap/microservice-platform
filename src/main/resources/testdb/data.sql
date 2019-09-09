@@ -1,12 +1,12 @@
 
-insert into T_ACCOUNT (NUMBER, NAME) values ('123456789', 'Keri Lee');
-insert into T_ACCOUNT (NUMBER, NAME) values ('123456001', 'Dollie R. Schnidt');
-insert into T_ACCOUNT (NUMBER, NAME) values ('123456002', 'Cornelia J. LeClerc');
-insert into T_ACCOUNT (NUMBER, NAME) values ('123456003', 'Cynthia Rau');
-insert into T_ACCOUNT (NUMBER, NAME) values ('123456004', 'Douglas R. Cobbs');
-insert into T_ACCOUNT (NUMBER, NAME) values ('123456005', 'Michael Patel');
-insert into T_ACCOUNT (NUMBER, NAME) values ('123456006', 'Suzanne Wong');
-insert into T_ACCOUNT (NUMBER, NAME) values ('123456007', 'Ivan C. Jaya');
+insert into T_ACCOUNT (NUMBER, NAME, EMPLOYER_ID, YEARS_EMPLOYED) values ('123456789', 'Keri Lee', '123456', '5.9');
+insert into T_ACCOUNT (NUMBER, NAME, EMPLOYER_ID, YEARS_EMPLOYED) values ('123456001', 'Dollie R. Schnidt', '123412', '1.7');
+insert into T_ACCOUNT (NUMBER, NAME, EMPLOYER_ID, YEARS_EMPLOYED) values ('123456002', 'Cornelia J. LeClerc', '123421', '14.1');
+insert into T_ACCOUNT (NUMBER, NAME, EMPLOYER_ID, YEARS_EMPLOYED) values ('123456003', 'Cynthia Rau', '123413', '16.8');
+insert into T_ACCOUNT (NUMBER, NAME, EMPLOYER_ID, YEARS_EMPLOYED) values ('123456004', 'Douglas R. Cobbs', '123414', '2.3');
+insert into T_ACCOUNT (NUMBER, NAME, EMPLOYER_ID) values ('123456005', 'Michael Patel', '123415');
+insert into T_ACCOUNT (NUMBER, NAME, EMPLOYER_ID) values ('123456006', 'Suzanne Wong', '123416');
+insert into T_ACCOUNT (NUMBER, NAME, EMPLOYER_ID) values ('123456007', 'Ivan C. Jaya', '123417');
 insert into T_ACCOUNT (NUMBER, NAME) values ('123456008', 'Ida Ketterer');
 insert into T_ACCOUNT (NUMBER, NAME) values ('123456009', 'Laina Ochoa Lucero');
 insert into T_ACCOUNT (NUMBER, NAME) values ('123456010', 'Wesley M. Montana');

@@ -32,6 +32,10 @@ public class Account implements Serializable {
 
 	protected BigDecimal balance;
 
+	protected Long employerId;
+
+	protected BigDecimal yearsEmployed;
+
 	/**
 	 * This is a very simple, and non-scalable solution to generating unique
 	 * ids. Not recommended for a real application. Consider using the
@@ -75,6 +79,22 @@ public class Account implements Serializable {
 
 	public String getNumber() {
 		return number;
+	}
+
+	protected void setEmployerId(long employerId) {
+		this.employerId = employerId;
+	}
+
+	public Long getEmployerId() {
+		return employerId;
+	}
+
+	protected void setYearsEmployed(BigDecimal employerId) {
+		this.yearsEmployed = yearsEmployed;
+	}
+
+	public BigDecimal getYearsEmployed() {
+		return yearsEmployed;
 	}
 
 	protected void setNumber(String accountNumber) {
