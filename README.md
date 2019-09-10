@@ -1,6 +1,6 @@
 # microservices-platform
 
-![Demo System Schematic](https://github.com/paulc4/microservices-platform/blob/master/mini-system.jpg)
+![Demo System Schematic](https://github.com/paulc4/microservices-demo/blob/master/mini-system.jpg)
 
 ## Versions
 
