@@ -13,9 +13,11 @@ import com.fasterxml.jackson.annotation.JsonRootName;
 public class Account {
 
 	protected Long id;
+	protected Long employerId;
 	protected String number;
 	protected String owner;
 	protected BigDecimal balance;
+	protected BigDecimal yearsEmployed;
 
 	/**
 	 * Default constructor for JPA only.
@@ -38,6 +40,14 @@ public class Account {
 		this.id = id;
 	}
 
+	protected void setEmployerId(long employerId) {
+		this.employerId = employerId;
+	}
+
+	public long getEmployerId() {
+		return employerId;
+	}
+
 	public String getNumber() {
 		return number;
 	}
@@ -56,6 +66,14 @@ public class Account {
 
 	public BigDecimal getBalance() {
 		return balance.setScale(2, BigDecimal.ROUND_HALF_EVEN);
+	}
+
+	public BigDecimal getYearsEmployed() {
+		return yearsEmployed;
+	}
+
+	public void setYearsEmployed(BigDecimal yearsEmployed) {
+		this.yearsEmployed = yearsEmployed;
 	}
 
 	protected void setBalance(BigDecimal value) {

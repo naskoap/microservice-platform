@@ -23,6 +23,8 @@
 					<th>Account Number</th>
 					<th>Owner</th>
 					<th>Balance</th>
+					<th>Employer ID</th>
+					<th>Years of Employment</th>
 				</tr>
 			</thead>
 
@@ -33,6 +35,8 @@
 						th:text="|${account.number}|">11111111</a></td>
 					<td th:text="${account.owner}">Owner</td>
 					<td th:text="${account.balance}">0</td>
+					<td th:text="${account.employerId}">123457</td>
+					<td th:text="${account.yearsEmployed}">1.5</td>
 				</tr>
 			</tbody>
 		</table>
