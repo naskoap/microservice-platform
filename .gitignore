@@ -7,8 +7,8 @@
 .gradle/
 build/
 gradle.properties~
-microservices-demo.ipr
-microservices-demo.iws
+microservices-platform.ipr
+microservices-platform.iws
 
 
 target/
